@@ -1,0 +1,76 @@
+img {
+     width: auto;
+     display: block; }
+*{box-sizing: border-box;}
+.grid-container { display: grid; grid-template-columns: 1.5fr 0.5fr 1fr 1fr;}
+input[type="button"]{
+  font-family: calibri,'Font Awesome 5 Free'; text-align: justify;
+  font-size:25px;
+}
+section#hero {background-color: darkgray; display: column; display: flex;  justify-content: center;}
+
+section#hero h1 {font-size: 2.5rem;}
+section#hero h2 {font-size: 1.6rem; padding-top: 10px;} 
+section#experiencia h2 {color: black;}
+body {background-color: rgb(213, 213, 213);}
+
+* { font-family: 'Roboto Condensed', sans-serif;}
+/** section#videosprofes {display: column; display: flex;} */
+section#videosprofes p {margin-bottom: 5px ; width: 300px;}
+footer {border: 10px solid rgb(206, 156, 31); 
+          width: 1200px;     
+          padding: 10px;
+          margin: 5px; 
+          background-color: rgb(213, 213, 213); 
+          font-size: 1.1rem;} /** lo dejo listo en caso de querer cambiarlo */
+ul {list-style: inside; list-style-type:square ; font-size: 1.1rem;}
+.button{ 
+     margin: 0px; 
+     padding: 0px; 
+     text-align: center;
+     color: rgb(0, 0, 0);}
+
+
+h1 { font-family: 'Roboto Condensed', sans-serif;
+     margin: 0px; 
+     padding-top: 0px; 
+     padding-bottom: 10px;
+     padding-right: 10px;
+     padding-left: 10px;
+     font-weight: bold; 
+     color: rgb(0, 0, 0);}
+h2 { font-family: 'Roboto Condensed', sans-serif;
+     margin: 0px; 
+     padding: 0px; 
+     padding-right: 10px;
+     padding-left: 10px;
+     color: rgb(0, 0, 0);}
+h4 { font-family: 'Roboto Condensed', sans-serif;
+     border: 3px solid rgb(7, 89, 6);
+     margin: 0px; 
+     margin-top: 25px; 
+     margin-bottom: 10px; 
+     padding: 10px; 
+     padding-right: 10px;
+     padding-left: 10px;
+     font-weight: bold; 
+     color: rgb(51, 20, 205);}
+section#hero { width: 1200px; 
+          border: 10px solid goldenrod; 
+          padding: 10px;
+          margin: 5px;}
+          
+section#experiencia { width: 1200px; 
+          border: 10px solid rgb(206, 156, 31); 
+          padding: 10px;
+          margin: 5px;}
+
+section#videosprofes { width: 1200px; 
+          border: 10px solid rgb(155, 114, 11); 
+          padding: 10px;
+          margin: 5px;}
+.videos {border: 30x solid red;
+               width: 300px;} 
+.videos img{width: 100%;}  
+
+         

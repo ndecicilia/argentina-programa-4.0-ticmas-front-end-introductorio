@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV DECICILIA NICOLAS</title>
+    <link rel="stylesheet" type="text/css" href="C:/Users/Martina/Desktop/nico/Proyecto Final Decicilia Nicolas/estilos.css" /> 
+  
+</head>
+
+<body>
+   
+<main>
+   <section id="hero">
+    
+        <div class="grid-container">
+            <div class="grid item grid-item-1">
+                <h1>Decicilia Nicolás</h1>         
+            </div>   
+            
+            <div class="grid item grid-item-2"> <!-- foto de perfil -->
+                <img src="imagenes/foto perfil.jpg" width="164px" height="188px" alt="foto de perfil">
+            </div>
+            
+            <div class="grid item grid-item-3"> <!-- botón con imagen del titulo de profesor de física-->
+                <a href="imagenes/titulo fisica.jpg">   
+                     <button id="miBoton1" type="button">
+                        <h2>Profesor de Física</h2>
+                    </button>
+                </a> 
+                </div>
+
+                <div class="grid item grid-item-4"> <!-- botón con imagen del titulo de música-->
+                    <a href="imagenes/titulo unq.jpg">   
+                        <button id="miBoton2" type="button">
+                            <h2>Licenciado en Composición con Medios Electroacústicos</h2>
+                        </button>
+                    </a> 
+                </div> 
+            </div>
+       
+
+            <!-- con esto veo que los botones lean el click-->
+            <script> 
+                const fisica = document.getElementById("miBoton1");
+               fisica.addEventListener("click", function(e) {
+                console.log("CLICKEADO BOTON FISICA!");
+               });
+               const musica = document.getElementById("miBoton2");
+               musica.addEventListener("click", function(e) {
+                console.log("CLICKEADO BOTON MUSICA!");
+               });
+            </script>
+        </div>
+        
+    </section>
+    <section id="experiencia">
+        <h2>Experiencia</h2>
+        <div class="listadematerias">
+            <ul>
+                <div class="univ">
+                    <h4>Nivel Universitario</h4>
+                    <li>Ayudante de varias materias en la UNLP</li>
+                </div>
+                <div class="terc">
+                <h4>Nivel Terciario</h4>
+                    <li>Análisis Matemático I (para profesorado en Matemática)</li>
+                    <li>Análisis Matemático II (para profesorado en Matemática)</li>
+                    <li>Fundamentos de la Matemática (para profesorado en Matemática)</li>
+                    <li>Historia de la Matemática (para profesorado en Matemática)</li>
+                    <li>Física (para profesorado en Matemática)</li>
+                    <li>Física (para profesorado en Matemática)</li>
+                    <li>Física I y Física II (para profesorado en Biología)</li>
+                    <li>Física biológica (para profesorado en Biología)</li>
+                    <li>Física (para Logística)</li>
+                </div>
+                <div class="secu">
+                <h4>Nivel Secundario</h4>
+                <li>fisicomatemáticas en general para el nivel secundario</li>
+                </div>
+                <div class="inipri">
+                <h4>Nivel Inicial y Primario</h4>
+                <li>Música</li>
+                </div>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="videosprofes">
+                
+            <div class="videos">
+                <h3>Videos de profesores que inspiraron mi manera de enseñar, <em>cliqueá en las fotos!</em></h3>
+                    <div class="grid-container">
+
+                    <div class="grid item grid-item-5">
+                        <p><strong>Jorge Tejero</strong></p>
+                        <a href="https://www.youtube.com/embed/8y23Gw4Lk_I?list=PL3KGq8pH1bFSH33aCvkGNdrjn1yXNSG5a">
+                            <img src="imagenes/j.jpg" alt="imagen Jorge de Matemovil">
+                        </a>
+                    </div>
+
+                    <div class="grid item grid-item-6">
+                        <p><strong>Paul Hewitt</strong></p>
+                        <a href="https://youtu.be/8vUzS9b_0IE">
+                            <img src="imagenes/p.jpg" alt="imagen Paul Hewitt">
+                        </a>
+                    </div>
+
+                    <div class="grid item grid-item-7">
+                        <p><strong>Tyler Dewitt</strong></p>
+                        <a href="https://www.youtube.com/embed/dRtSjJCKkIo">
+                            <img src="imagenes/t.jpg" alt="imagen Tyler Dewitt">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+     
+</main>
+
+<footer>
+<section id="contacto">
+        <form action="" method="post">
+        <label>Nombre y apellido</label>
+        <input type="text" required name="nombreyapellido" placeholder="Ingrese su nombre y apellido">
+        <label>Teléfono</label>
+        <input type="text" required name="teléfono" placeholder="Ingrese su teléfono">
+        <label>mail</label>
+        <input type="email" required name="email" placeholder="Ingrese su email">
+        <input type="submit" value="Enviar">
+    </form>
+    
+
+        <p id="conexion">Elegí una opción para conectarte a las clases particulares online</p>
+        <div> 
+            <input type="radio" name="conexión" id="Zoom" value="Zoom" >
+            <label for="Zoom">Zoom</label>
+        </div>
+    
+        <div> 
+            <input type="radio" name="conexión" id="Google Meet" value="Google Meet" checked >
+            <label for="Google Meet">Google Meet</label>
+        </div>
+        <p id="disciplina">Qué querés aprender?</p>
+        <div>
+            <input type="checkbox" name="tipo" id="matemática y/o física" value="matemática y/o física" >
+            <label for="matemática y/o física">matemática y/o física</label>
+        </div>
+        <div>
+            <input type="checkbox" name="tipo" id="música" value="música" >
+            <label for="música">música</label>
+        </div>
+    </section>
+    <p>Twitter: <a href="https://twitter.com/neiltyson">@neiltyson</a></p> <!--no tengo tweeter así que puse uno de otro-->
+    
+    
+</footer>
+</body>
+</html>
